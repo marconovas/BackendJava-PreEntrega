@@ -12,6 +12,13 @@ public class Categoria {
         this.descripcion = descripcion;
     }
 
+    @Override 
+    public String toString() {
+        return "{codigo=" + this.codigo  +
+                ", nombre=" + this.nombre + ", descripcion=" +
+                this.descripcion + " }";
+    }
+
     //GETTERS
     public int getCodigo() {
         return this.codigo;
